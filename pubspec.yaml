@@ -1,0 +1,56 @@
+name: lumenote
+description: Lumenote AI study notes and learning workspace.
+publish_to: "none"
+version: 0.1.1+2
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  record: ^7.1.1
+  path_provider: ^2.1.5
+  file_picker: ^13.1.0
+  http: ^1.5.0
+  url_launcher: ^6.3.2
+  supabase_flutter: ^2.8.0
+  shared_preferences: ^2.5.3
+  audioplayers: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/Quicksand-Variable.ttf
+  assets:
+    - assets/branding/lumenote_isotype.png
+    - assets/branding/lumenote_isotype_v2.png
+    - assets/branding/lumenote_isotype_final.png
+    - assets/branding/lumenote_isotype_black.png
+    - assets/branding/lumenote_isotype_white.png
+    - assets/branding/lumenote_isotype_purple.png
+    - assets/branding/lumenote_isotype_v3.png
+    - assets/branding/lumenote_isotype_v4.png
+    - assets/branding/lumenote_isotype_light.png
+    - assets/branding/lumenote_isotype_dark.png
+    - assets/branding/codex_icon.png
+    - assets/branding/study_empty_state.png
+    - assets/branding/study_materials_hero.png
+    - assets/branding/home_hero_content.png
+    - assets/branding/lumenote_splash_isotype.png
+    - assets/branding/lumenote_splash.gif
+    - assets/branding/splash_frames/
+    - assets/branding/kuromi_splash_wave_v2.png
+    - assets/branding/kuromi_home_organizing.png
+    - assets/branding/kuromi_study_scene.png
+    - assets/branding/kuromi_study_empty.png
+    - assets/branding/kuromi_isotype_v2.png
+    - assets/branding/kuromi_tutor.png
