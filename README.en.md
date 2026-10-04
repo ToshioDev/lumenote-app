@@ -1,5 +1,9 @@
 <div align="center">
-  <img src="assets/branding/lumenote_isotype_purple.png" width="88" alt="Lumenote symbol" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/branding/lumenote_isotype_white.png" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/branding/lumenote_isotype_black.png" />
+    <img src="assets/branding/lumenote_isotype_black.png" width="88" alt="L-shaped Lumenote symbol" />
+  </picture>
   <h1>Lumenote</h1>
   <p><strong>Turn a recorded class into something you can actually remember.</strong></p>
   <p>Capture what matters. Understand it better. Study your way.</p>

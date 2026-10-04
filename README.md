@@ -1,5 +1,9 @@
 <div align="center">
-  <img src="assets/branding/lumenote_isotype_purple.png" width="88" alt="Isotipo de Lumenote" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/branding/lumenote_isotype_white.png" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/branding/lumenote_isotype_black.png" />
+    <img src="assets/branding/lumenote_isotype_black.png" width="88" alt="Isotipo L de Lumenote" />
+  </picture>
   <h1>Lumenote</h1>
   <p><strong>De una clase grabada a una idea que sí recuerdas.</strong></p>
   <p>Captura lo importante. Compréndelo mejor. Estúdialo a tu manera.</p>
