@@ -1,18 +1,20 @@
 # Lumenote README visual assets
 
-These three standalone ImageGen illustrations support one compact, numbered product-flow table in the repository README. They are conceptual illustrations, not app screenshots. Each image has one distinct role in the flow: capture, connect materials, and practice. Product labels, claims, and navigation remain live Markdown/HTML rather than being baked into the images.
+The README uses one purpose-built, code-native SVG to explain the product workflow. It replaces the previous full-size generated illustrations, which looked like decorative banners and could be mistaken for app screenshots. Those PNGs remain in the repository but are not referenced by either README.
 
 | File | Native size | Subject and README section | Treatment |
 | --- | ---: | --- | --- |
-| `lumenote-audio-to-notes.png` | 1536 × 1024 | Step 01: class recording, timestamped transcript, and connected notes | Landscape 3:2; shown in the first cell of a three-step workflow table; preserve natural ratio. |
-| `lumenote-topic-materials.png` | 1536 × 1024 | Step 02: audio, documents, images, and links associated with a topic | Landscape 3:2; shown in the second workflow cell; preserve natural ratio. |
-| `lumenote-active-study.png` | 1536 × 1024 | Step 03: multiple-choice practice, flashcards, and study progress | Landscape 3:2; shown in the third workflow cell; preserve natural ratio. |
+| `lumenote-workflow-es.svg` | 1200 × 340 | Spanish product flow: capture, connect, learn | Vector, dark ink/lavender palette; no crop; rendered below the README intro. |
+| `lumenote-workflow-en.svg` | 1200 × 340 | English product flow: capture, connect, learn | Vector, same geometry and palette as Spanish variant; no crop. |
+| `lumenote-audio-to-notes.png` | 1536 × 1024 | Legacy concept illustration: audio and transcript | Retained but not used in README; not a screenshot. |
+| `lumenote-topic-materials.png` | 1536 × 1024 | Legacy concept illustration: resources linked to a topic | Retained but not used in README; not a screenshot. |
+| `lumenote-active-study.png` | 1536 × 1024 | Legacy concept illustration: active study | Retained but not used in README; not a screenshot. |
 
 ## Brand and generation notes
 
 - Keep the approved ribbon-fold `L` mark separate and use the existing theme-specific files in `assets/branding/`; none of these illustrations redraw, alter, or substitute for the logo.
-- Shared palette: warm white, ink black, cool gray, and restrained lavender/violet. The images use the same quiet editorial product-illustration direction, but each depicts a distinct feature.
-- All three were generated with Codex's built-in ImageGen tool for this README; no provider/API fallback was used. Prompts requested no logos, readable copy, or watermark so text stays accessible and UTF-8 safe.
-- Visual roles: (1) a class recording resolves into timestamped transcript segments and connected notes; (2) mixed study materials converge on a topic and timeline; (3) study questions and cards lead to visible progress.
+- The workflow SVG is hand-built vector art using the approved Lumenote ink/lavender palette; the official logo remains a separate theme-aware PNG in the README header.
+- Each graphic element has a specific role: waveform for capture, document for organizing material, check-list for study practice, with directional connectors showing progression.
+- The labels have Spanish and English variants; descriptive `alt` text remains in each Markdown file.
 
-Use each full image at its intrinsic 3:2 aspect ratio. Do not crop. GitHub scales the images equally within their table cells; the visual sequence and live captions explain why each image is present.
+Keep the SVG at its natural 1200:340 aspect ratio. Do not add screenshots, extra ornaments, or UI copy that suggests the conceptual diagram is the running application.
