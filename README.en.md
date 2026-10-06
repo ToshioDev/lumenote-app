@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/branding/lumenote_isotype_white.png" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/branding/lumenote_isotype_black.png" />
-    <img src="assets/branding/lumenote_isotype_black.png" width="92" alt="Official Lumenote mark: a folded black-and-lilac ribbon forming an L" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/branding/lumenote_isotype_dark.png" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/branding/lumenote_isotype_light.png" />
+    <img src="assets/branding/lumenote_isotype_light.png" width="92" alt="Official Lumenote mark: an L formed by a folded ribbon with two colored faces" />
   </picture>
   <h1>Lumenote</h1>
   <p><strong>From recorded class to knowledge that sticks.</strong></p>

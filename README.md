@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/branding/lumenote_isotype_white.png" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/branding/lumenote_isotype_black.png" />
-    <img src="assets/branding/lumenote_isotype_black.png" width="92" alt="Isotipo oficial de Lumenote: una L de cinta doblada en negro y lila" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/branding/lumenote_isotype_dark.png" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/branding/lumenote_isotype_light.png" />
+    <img src="assets/branding/lumenote_isotype_light.png" width="92" alt="Isotipo oficial de Lumenote: una L formada por una cinta plegada de dos caras" />
   </picture>
   <h1>Lumenote</h1>
   <p><strong>De la clase grabada a lo que sí recuerdas.</strong></p>
