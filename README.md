@@ -2,119 +2,112 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/branding/lumenote_isotype_dark.png" />
     <source media="(prefers-color-scheme: light)" srcset="assets/branding/lumenote_isotype_light.png" />
-    <img src="assets/branding/lumenote_isotype_light.png" width="92" alt="Isotipo oficial de Lumenote: una L formada por una cinta plegada de dos caras" />
+    <img src="assets/branding/lumenote_isotype_light.png" width="76" alt="Isotipo de Lumenote: una L de cinta plegada con dos caras" />
   </picture>
   <h1>Lumenote</h1>
-  <p><strong>De la clase grabada a lo que sí recuerdas.</strong></p>
-  <p>Captura una vez. Encuentra la idea. Aprende a tu manera.</p>
+  <p><strong>De una clase grabada a ideas que permanecen.</strong></p>
+  <p>Graba, conecta tus materiales y convierte cada tema en una oportunidad para aprender.</p>
   <p>
-    <a href="https://lumenote-7ko.pages.dev"><strong>Visitar Lumenote</strong></a> ·
-    <a href="https://github.com/ToshioDev/lumenote-app">Código y proyecto</a> ·
-    <a href="https://github.com/ToshioDev/lumenote-app/issues">Compartir una idea</a> ·
+    <a href="https://lumenote-7ko.pages.dev"><strong>Conocer Lumenote</strong></a> ·
+    <a href="https://github.com/ToshioDev/lumenote-app/issues">Proponer una mejora</a> ·
     <a href="README.en.md">English</a>
   </p>
   <p>
-    <a href="https://flutter.dev"><img alt="Flutter" src="https://img.shields.io/badge/Flutter-apps-6C4CE3?logo=flutter&logoColor=white" /></a>
-    <a href="https://dart.dev"><img alt="Dart" src="https://img.shields.io/badge/Dart-language-0175C2?logo=dart&logoColor=white" /></a>
-    <a href="https://react.dev"><img alt="React" src="https://img.shields.io/badge/React-UI-149ECA?logo=react&logoColor=white" /></a>
-    <a href="https://vite.dev"><img alt="Vite" src="https://img.shields.io/badge/Vite-web-646CFF?logo=vite&logoColor=white" /></a>
-    <a href="https://www.typescriptlang.org"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-types-3178C6?logo=typescript&logoColor=white" /></a>
-    <a href="https://nodejs.org"><img alt="Node.js" src="https://img.shields.io/badge/Node.js-API-5FA04E?logo=nodedotjs&logoColor=white" /></a>
-    <a href="https://www.postgresql.org"><img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-data-4169E1?logo=postgresql&logoColor=white" /></a>
-    <a href="https://supabase.com"><img alt="Supabase" src="https://img.shields.io/badge/Supabase-auth%20%26%20storage-3FCF8E?logo=supabase&logoColor=white" /></a>
-    <a href="https://www.docker.com"><img alt="Docker" src="https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white" /></a>
-    <a href="https://pages.cloudflare.com"><img alt="Cloudflare Pages" src="https://img.shields.io/badge/Cloudflare-Pages-F38020?logo=cloudflare&logoColor=white" /></a>
+    <img alt="Flutter" src="https://img.shields.io/badge/Flutter-app-6C4CE3?logo=flutter&logoColor=white" />
+    <img alt="Dart" src="https://img.shields.io/badge/Dart-language-0175C2?logo=dart&logoColor=white" />
+    <img alt="Node.js" src="https://img.shields.io/badge/Node.js-API-5FA04E?logo=nodedotjs&logoColor=white" />
+    <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-data-4169E1?logo=postgresql&logoColor=white" />
+    <img alt="Supabase" src="https://img.shields.io/badge/Supabase-auth%20%26%20storage-3FCF8E?logo=supabase&logoColor=white" />
+    <img alt="Docker Compose" src="https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white" />
   </p>
 </div>
 
-## Aprende de cada clase, no solo guardes el audio
+## Del audio al aprendizaje
 
-Lumenote reúne grabaciones, apuntes y materiales por tema. Vuelve a una idea desde su marca de tiempo, entiende los puntos principales y transforma tus notas en práctica de estudio.
+Una clase no termina cuando paras la grabación. Lumenote organiza la sesión y sus recursos alrededor del tema para que puedas volver a lo importante y practicarlo después.
 
-### Escucha y vuelve al momento exacto
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="assets/readme/lumenote-audio-to-notes.png" width="100%" alt="Ilustración conceptual: grabación de una clase conectada con una transcripción por momentos y apuntes" />
+      <strong>01 · Captura</strong><br />Graba y vuelve a cada momento mediante marcas de tiempo.
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/readme/lumenote-topic-materials.png" width="100%" alt="Ilustración conceptual: audio, documento, imagen y enlace vinculados a un tema y su línea de tiempo" />
+      <strong>02 · Conecta</strong><br />Reúne notas, documentos, imágenes y enlaces en un tema.
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/readme/lumenote-active-study.png" width="100%" alt="Ilustración conceptual: tarjetas, preguntas de opción múltiple y progreso de estudio" />
+      <strong>03 · Practica</strong><br />Repasa con tarjetas y preguntas basadas en tus materiales.
+    </td>
+  </tr>
+</table>
 
-Graba una clase, sigue su transcripción por marcas de tiempo y ubica las ideas sin recorrer todo el audio otra vez.
+<p align="center"><sub>Ilustraciones conceptuales del flujo; no son capturas de pantalla de la aplicación.</sub></p>
 
-<p align="center"><img src="assets/readme/lumenote-audio-to-notes.png" width="100%" alt="Una grabación de clase se convierte en una línea de tiempo con segmentos de transcripción y apuntes relacionados" /></p>
+## Qué encontrarás en el proyecto
 
-### Todo el material conectado con su tema
+- **App multiplataforma con Flutter:** Android, iOS, web y escritorio.
+- **API Node.js** y PostgreSQL para los datos y trabajos de procesamiento.
+- **Transcripción local opcional con Whisper**, ejecutada como servicio separado y con caché persistente del modelo.
+- **Supabase configurable** para autenticación, acceso a datos y almacenamiento; debes proporcionar tu propio proyecto Supabase.
+- Organización por temas, grabación y reproducción, transcripciones con marcas de tiempo, resúmenes, tutor IA y herramientas de estudio. Las funciones de IA dependen de la configuración del backend y del proveedor habilitado.
 
-Agrupa audios, documentos, imágenes y enlaces. Relaciona cada recurso con el momento de la clase donde se menciona para conservar su contexto.
+## Levantar la versión web con Docker
 
-<p align="center"><img src="assets/readme/lumenote-topic-materials.png" width="100%" alt="Un tema de estudio conecta audio, documento, diapositiva y enlace con marcas de tiempo de la clase" /></p>
+Requisitos: Docker Compose v2 y un proyecto Supabase. Este Compose **no instala Supabase**: levanta la app web, la API, PostgreSQL para los datos de la API y el servicio local de Whisper.
 
-### Estudia de forma activa
+Crea los archivos de configuración a partir de las plantillas:
 
-Repasa con tarjetas y preguntas de opción múltiple basadas en el contenido de tus temas, y usa el progreso para reconocer qué conviene practicar de nuevo.
-
-<p align="center"><img src="assets/readme/lumenote-active-study.png" width="100%" alt="Una pregunta de opción múltiple, tarjetas de repaso y un indicador de avance de estudio" /></p>
-
-## Qué incluye el proyecto
-
-- Apps Flutter para Android, iOS, web, Windows, macOS y Linux.
-- Offering responsive construido con React, TypeScript y Vite.
-- Backend Node.js, PostgreSQL y servicios opcionales de transcripción local con Whisper.
-- Integración configurable con Supabase para autenticación, REST y almacenamiento.
-- Captura, organización por temas, transcripción con timestamps, resumen, tutor IA y herramientas de estudio. Las funciones de IA disponibles dependen del proveedor y la configuración del backend.
-
-## Prueba Lumenote en tu propio entorno
-
-Necesitas Docker Compose v2 y un proyecto Supabase propio para Auth, PostgREST y Storage; Supabase no viene incluido en Compose.
-
-```powershell
-Copy-Item .env.example .env
-Copy-Item backend/.env.example backend/.env
+```bash
+cp .env.example .env
+cp backend/.env.example backend/.env
 ```
 
-Configura tus propios valores de Supabase, una contraseña PostgreSQL fuerte y los proveedores que quieras habilitar. Mantén los archivos `.env` privados: las claves service-role, los tokens de IA y las credenciales de proveedores solo pertenecen al backend.
+Completa `SUPABASE_URL` y `SUPABASE_ANON_KEY` en el `.env` raíz y configura `backend/.env`. Usa una contraseña PostgreSQL fuerte. No pongas claves `service_role`, credenciales de IA ni secretos de proveedores en el `.env` raíz ni en la app cliente.
 
-```powershell
+```bash
 docker compose up --build
 ```
 
-Abre el offering en `http://localhost:8080`, la app en `http://localhost:8765` y la API en `http://localhost:8787`. Revisa y aplica las migraciones de [`supabase/migrations/`](supabase/migrations/) a tu proyecto antes de usarlo. El primer inicio del transcriptor puede tardar mientras descarga su modelo.
+Al iniciar:
 
-### Desarrollo local del offering
+- App web: `http://localhost:8765`
+- API: `http://localhost:8787`
 
-```powershell
-Set-Location offering
-npm ci
-npm run dev
+Antes de usar tu instancia, revisa las migraciones de [`supabase/migrations/`](supabase/migrations/) y la guía de [modos de despliegue](docs/deployment-modes.md). El primer arranque de Whisper puede tardar mientras descarga el modelo. Para una URL remota, configura `LUMENOTE_AI_URL` con una dirección HTTPS accesible desde el navegador del usuario; un nombre interno de Docker no será accesible desde el dispositivo.
+
+### Ejecutar Flutter en desarrollo
+
+Instala Flutter, ejecuta `flutter pub get` y configura los valores de Supabase y de la API para tu entorno:
+
+```bash
+flutter run -d chrome --dart-define=SUPABASE_URL=https://TU_PROYECTO.supabase.co --dart-define=SUPABASE_ANON_KEY=TU_CLAVE_PUBLICABLE --dart-define=LUMENOTE_AI_URL=http://localhost:8787
 ```
 
-Vite inicia con hot reload en `http://localhost:5173`.
+La clave publicable de Supabase requiere políticas RLS bien configuradas. Nunca incluyas claves privadas en `--dart-define` ni en un build cliente.
 
-### Desarrollo de la app Flutter
-
-```powershell
-flutter pub get
-flutter run -d chrome `
-  --dart-define=SUPABASE_URL=https://TU_PROYECTO.supabase.co `
-  --dart-define=SUPABASE_ANON_KEY=TU_CLAVE_PUBLICABLE `
-  --dart-define=LUMENOTE_AI_URL=http://localhost:8787
-```
-
-En despliegues remotos, `LUMENOTE_AI_URL` debe ser una URL HTTPS accesible desde cada dispositivo. La clave publicable de Supabase requiere políticas RLS correctamente configuradas. Consulta [modos de despliegue](docs/deployment-modes.md) para entender los componentes y opciones de alojamiento.
-
-## Cómo se conecta
+## Arquitectura
 
 ```mermaid
 flowchart LR
-    U[Flutter: móvil, web y escritorio] --> S[Supabase Auth, REST y Storage]
+    U[App Flutter: móvil, web y escritorio] --> S[Supabase: Auth, REST y Storage]
     U --> A[API Node.js]
     A --> D[(PostgreSQL)]
     A --> W[Whisper local opcional]
     A --> M[Proveedor de IA configurado]
 ```
 
-## Construyámoslo en comunidad
+La autenticación y el almacenamiento Supabase son servicios externos configurados por quien despliega. PostgreSQL y Whisper del Compose son servicios privados de apoyo para la API; no constituyen una instalación completa de Supabase.
 
-Lumenote sigue en desarrollo. Puedes abrir un [issue](https://github.com/ToshioDev/lumenote-app/issues), proponer una mejora o ayudar con accesibilidad, transcripción en español, experiencia móvil y documentación. Antes de enviar cambios, ejecuta las verificaciones correspondientes, por ejemplo `flutter analyze`, `flutter test`, `node --check backend/server.mjs` y `python scripts/check_utf8.py`.
+## Contribuir
 
-Las membresías, los cobros y el panel de distribución aún no se anuncian como servicios comerciales listos. Consulta su estado en [`docs/membership-commerce-plan.md`](docs/membership-commerce-plan.md) y [`docs/distribution-control-plane.md`](docs/distribution-control-plane.md).
+El proyecto sigue en desarrollo. Puedes compartir errores o propuestas en [GitHub Issues](https://github.com/ToshioDev/lumenote-app/issues). Antes de enviar un cambio, ejecuta las verificaciones relevantes, por ejemplo `flutter analyze`, `flutter test`, `node --check backend/server.mjs` y `python scripts/check_utf8.py`.
 
-## Licencia y derechos de assets
+Las membresías, los cobros y el panel de distribución no se presentan aquí como servicios comerciales listos. Consulta [`docs/membership-commerce-plan.md`](docs/membership-commerce-plan.md) y [`docs/distribution-control-plane.md`](docs/distribution-control-plane.md) para ver su estado.
 
-El repositorio todavía no incluye un archivo `LICENSE`: que el código pueda verse no concede por sí solo permiso para reutilizarlo o redistribuirlo. La marca y las ilustraciones de Kuromi son propiedad intelectual de terceros y no están cubiertas por una licencia de Lumenote. Revisa los derechos de cada asset antes de redistribuir una compilación.
+## Licencia y assets
 
-<p align="center"><sub>© 2026 Lumenote · Hecho para que las ideas importantes no se pierdan al terminar la clase.</sub></p>
+El repositorio no incluye actualmente un archivo `LICENSE`. Que el código sea visible públicamente no concede por sí solo permiso para reutilizarlo o redistribuirlo. La marca y las ilustraciones de Kuromi pertenecen a sus respectivos titulares y no están cubiertas por una licencia de Lumenote; revisa los derechos de cada asset antes de redistribuir una compilación.
+
+<p align="center"><sub>© 2026 Lumenote · Guarda el contexto de la clase, no solo el archivo de audio.</sub></p>

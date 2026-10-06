@@ -1,12 +1,12 @@
 # Lumenote README visual assets
 
-These three standalone ImageGen illustrations are explanatory banners for the repository README. Product labels, claims, and navigation remain live Markdown/HTML rather than being baked into the images.
+These three standalone ImageGen illustrations support one compact, numbered product-flow table in the repository README. They are conceptual illustrations, not app screenshots. Each image has one distinct role in the flow: capture, connect materials, and practice. Product labels, claims, and navigation remain live Markdown/HTML rather than being baked into the images.
 
 | File | Native size | Subject and README section | Treatment |
 | --- | ---: | --- | --- |
-| `lumenote-audio-to-notes.png` | 1536 × 1024 | Recording, waveform, timestamped transcript, and resulting notes | Landscape 3:2; display at full content width with natural aspect ratio. |
-| `lumenote-topic-materials.png` | 1536 × 1024 | A named topic linking audio, PDF, slide, and link to class moments | Landscape 3:2; display at full content width with natural aspect ratio. |
-| `lumenote-active-study.png` | 1536 × 1024 | Multiple-choice practice, flashcards, and study progress | Landscape 3:2; display at full content width with natural aspect ratio. |
+| `lumenote-audio-to-notes.png` | 1536 × 1024 | Step 01: class recording, timestamped transcript, and connected notes | Landscape 3:2; shown in the first cell of a three-step workflow table; preserve natural ratio. |
+| `lumenote-topic-materials.png` | 1536 × 1024 | Step 02: audio, documents, images, and links associated with a topic | Landscape 3:2; shown in the second workflow cell; preserve natural ratio. |
+| `lumenote-active-study.png` | 1536 × 1024 | Step 03: multiple-choice practice, flashcards, and study progress | Landscape 3:2; shown in the third workflow cell; preserve natural ratio. |
 
 ## Brand and generation notes
 
@@ -15,4 +15,4 @@ These three standalone ImageGen illustrations are explanatory banners for the re
 - All three were generated with Codex's built-in ImageGen tool for this README; no provider/API fallback was used. Prompts requested no logos, readable copy, or watermark so text stays accessible and UTF-8 safe.
 - Visual roles: (1) a class recording resolves into timestamped transcript segments and connected notes; (2) mixed study materials converge on a topic and timeline; (3) study questions and cards lead to visible progress.
 
-Use the full image at its intrinsic 3:2 aspect ratio. Do not crop; GitHub scales it to the reader's viewport width.
+Use each full image at its intrinsic 3:2 aspect ratio. Do not crop. GitHub scales the images equally within their table cells; the visual sequence and live captions explain why each image is present.
