@@ -75,7 +75,7 @@ When the services start:
 - Web app: `http://localhost:8765`
 - API: `http://localhost:8787`
 
-Review the migrations in [`supabase/migrations/`](supabase/migrations/) and the [deployment modes guide](docs/deployment-modes.md) before using your instance. Whisper's first launch may take a while as it downloads the model. For a remote deployment, set `LUMENOTE_AI_URL` to an HTTPS address reachable from the user's browser; an internal Docker service name is not reachable from their device.
+Review and apply the migrations in [`supabase/migrations/`](supabase/migrations/) and read the [deployment modes guide](docs/deployment-modes.md) before using your instance. Whisper's first launch may take a while as it downloads the model. For a remote deployment, set `LUMENOTE_AI_URL` to an HTTPS address reachable from the user's browser; an internal Docker service name is not reachable from their device.
 
 ### Run Flutter in development
 

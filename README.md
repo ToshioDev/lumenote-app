@@ -75,7 +75,7 @@ Al iniciar:
 - App web: `http://localhost:8765`
 - API: `http://localhost:8787`
 
-Antes de usar tu instancia, revisa las migraciones de [`supabase/migrations/`](supabase/migrations/) y la guía de [modos de despliegue](docs/deployment-modes.md). El primer arranque de Whisper puede tardar mientras descarga el modelo. Para una URL remota, configura `LUMENOTE_AI_URL` con una dirección HTTPS accesible desde el navegador del usuario; un nombre interno de Docker no será accesible desde el dispositivo.
+Antes de usar tu instancia, revisa y aplica las migraciones de [`supabase/migrations/`](supabase/migrations/) y consulta la guía de [modos de despliegue](docs/deployment-modes.md). El primer arranque de Whisper puede tardar mientras descarga el modelo. Para una URL remota, configura `LUMENOTE_AI_URL` con una dirección HTTPS accesible desde el navegador del usuario; un nombre interno de Docker no será accesible desde el dispositivo.
 
 ### Ejecutar Flutter en desarrollo
 
