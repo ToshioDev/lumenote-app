@@ -2,7 +2,9 @@
   "name": "lumenote-ai-gateway",
   "private": true,
   "type": "module",
-  "scripts": { "start": "node server.mjs" },
+  "scripts": {
+    "start": "node api.js && node server.mjs"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.6.1",
