@@ -1,0 +1,18 @@
+FROM ghcr.io/cirruslabs/flutter:stable AS build
+WORKDIR /workspace
+COPY pubspec.yaml pubspec.lock ./
+RUN flutter pub get
+COPY . .
+ARG SUPABASE_URL
+ARG SUPABASE_ANON_KEY
+ARG LUMENOTE_AI_URL=http://localhost:8787
+RUN flutter build web --release \
+  --dart-define=SUPABASE_URL=${SUPABASE_URL} \
+  --dart-define=SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY} \
+  --dart-define=LUMENOTE_AI_URL=${LUMENOTE_AI_URL}
+
+FROM nginx:1.27-alpine
+COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=build /workspace/build/web /usr/share/nginx/html
+EXPOSE 80
+HEALTHCHECK --interval=20s --timeout=3s --retries=3 CMD wget -q -O /dev/null http://127.0.0.1/ || exit 1

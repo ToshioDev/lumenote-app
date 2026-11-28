@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">The Lumenote learning flow</title>
+  <desc id="desc">Capture a class, connect its resources to a topic, and practice with the content.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#131116" />
+      <stop offset="1" stop-color="#211b32" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8877dc" />
+      <stop offset="1" stop-color="#c2b6ff" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="340" rx="24" fill="url(#bg)" />
+  <path d="M350 166h76m350 0h76" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" />
+  <path d="m417 157 10 9-10 9m349-18 10 9-10 9" fill="none" stroke="#c2b6ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+
+  <g font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <g transform="translate(54 82)">
+      <rect width="296" height="188" rx="18" fill="#211e29" stroke="#413a51" />
+      <circle cx="36" cy="37" r="18" fill="#332b49" />
+      <text x="36" y="43" fill="#c2b6ff" font-size="16" font-weight="700" text-anchor="middle">01</text>
+      <text x="28" y="92" fill="#f7f5ff" font-size="23" font-weight="700">CAPTURE</text>
+      <text x="28" y="124" fill="#c7c2d1" font-size="15">Class audio and voices</text>
+      <text x="28" y="148" fill="#c7c2d1" font-size="15">with timestamps</text>
+      <g transform="translate(209 39)" fill="url(#accent)">
+        <rect x="0" y="14" width="5" height="16" rx="2.5" />
+        <rect x="10" y="7" width="5" height="30" rx="2.5" />
+        <rect x="20" y="0" width="5" height="44" rx="2.5" />
+        <rect x="30" y="10" width="5" height="24" rx="2.5" />
+        <rect x="40" y="17" width="5" height="10" rx="2.5" />
+      </g>
+    </g>
+
+    <g transform="translate(452 82)">
+      <rect width="296" height="188" rx="18" fill="#211e29" stroke="#413a51" />
+      <circle cx="36" cy="37" r="18" fill="#332b49" />
+      <text x="36" y="43" fill="#c2b6ff" font-size="16" font-weight="700" text-anchor="middle">02</text>
+      <text x="28" y="92" fill="#f7f5ff" font-size="23" font-weight="700">CONNECT</text>
+      <text x="28" y="124" fill="#c7c2d1" font-size="15">Notes, files, and links</text>
+      <text x="28" y="148" fill="#c7c2d1" font-size="15">gathered in one topic</text>
+      <g transform="translate(214 32)" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linejoin="round">
+        <path d="M0 8a5 5 0 0 1 5-5h24l12 12v38H5a5 5 0 0 1-5-5z" />
+        <path d="M29 3v13h12M9 27h23M9 36h23" />
+      </g>
+    </g>
+
+    <g transform="translate(850 82)">
+      <rect width="296" height="188" rx="18" fill="#211e29" stroke="#413a51" />
+      <circle cx="36" cy="37" r="18" fill="#332b49" />
+      <text x="36" y="43" fill="#c2b6ff" font-size="16" font-weight="700" text-anchor="middle">03</text>
+      <text x="28" y="92" fill="#f7f5ff" font-size="23" font-weight="700">LEARN</text>
+      <text x="28" y="124" fill="#c7c2d1" font-size="15">Summary, AI tutor</text>
+      <text x="28" y="148" fill="#c7c2d1" font-size="15">and active practice</text>
+      <g transform="translate(216 35)" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="0" y="0" width="43" height="46" rx="8" />
+        <path d="m10 15 4 4 8-9m-12 19h22m-22 8h15" />
+      </g>
+    </g>
+  </g>
+</svg>

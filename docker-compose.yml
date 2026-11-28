@@ -1,0 +1,66 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: lumenote
+      POSTGRES_USER: lumenote
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in the root .env}
+    volumes:
+      - lumenote_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U lumenote -d lumenote"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+  lumenote-ai:
+    build: ./backend
+    env_file:
+      - ./backend/.env
+    depends_on:
+      postgres:
+        condition: service_healthy
+      lumenote-whisper:
+        condition: service_healthy
+    environment:
+      WHISPER_LOCAL_URL: http://lumenote-whisper:9000
+      DATABASE_URL: postgresql://lumenote:${POSTGRES_PASSWORD}@postgres:5432/lumenote
+      DATABASE_SSL: "false"
+    ports:
+      - "8787:8787"
+    restart: unless-stopped
+
+  lumenote-whisper:
+    build: ./transcriber
+    environment:
+      WHISPER_MODEL: ${WHISPER_MODEL:-small}
+      WHISPER_DEVICE: cpu
+      WHISPER_COMPUTE_TYPE: int8
+      HF_HOME: /models
+    volumes:
+      - lumenote_whisper_models:/models
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:9000/health', timeout=3)"]
+      interval: 15s
+      timeout: 5s
+      retries: 120
+      start_period: 90s
+    restart: unless-stopped
+
+  lumenote-web:
+    build:
+      context: .
+      dockerfile: Dockerfile.web
+      args:
+        SUPABASE_URL: ${SUPABASE_URL:?Set SUPABASE_URL in the root .env}
+        SUPABASE_ANON_KEY: ${SUPABASE_ANON_KEY:?Set SUPABASE_ANON_KEY in the root .env}
+        LUMENOTE_AI_URL: ${LUMENOTE_AI_URL:-http://localhost:8787}
+    depends_on:
+      lumenote-ai:
+        condition: service_started
+    ports:
+      - "8765:80"
+    restart: unless-stopped
+
+volumes:
+  lumenote_postgres_data:
+  lumenote_whisper_models:
